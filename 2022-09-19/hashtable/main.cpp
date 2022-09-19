@@ -63,6 +63,8 @@ int main()
     }
     X.erase(3);
     std::cout << X << '\n';
+    X.clear();
+    std::cout << X << '\n';
 
     std::cout << "unordered map\n";
     
@@ -88,6 +90,8 @@ int main()
     }
     h.erase(3);
     std::cout << h << '\n';
-       
+    h.clear();
+    std::cout << h << '\n';
+
     return 0;
 }
