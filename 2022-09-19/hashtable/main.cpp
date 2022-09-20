@@ -41,6 +41,7 @@ std::ostream & operator<<(std::ostream & cout, const std::unordered_map< S, T > 
 
 int main()
 {
+    std::cout << "unordered set\n";    
     std::unordered_set< int > X;
     std::cout << X << '\n';
 
@@ -66,8 +67,7 @@ int main()
     X.clear();
     std::cout << X << '\n';
 
-    std::cout << "unordered map\n";
-    
+    std::cout << "unordered map\n";    
     std::unordered_map< int, int > h;
     std::cout << h << '\n';
     for (auto & key: std::vector< int >{1, 3, 5})
