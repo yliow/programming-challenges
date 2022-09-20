@@ -26,6 +26,9 @@ int main()
     ++p;
     v.erase(p);
     std::cout << v << '\n';
+    std::cout << *p << '\n';
+    v.insert(p, 999);
+    std::cout << v << '\n';
 
     v.clear();
     std::cout << v << '\n';
